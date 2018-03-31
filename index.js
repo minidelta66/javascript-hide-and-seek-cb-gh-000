@@ -12,3 +12,9 @@ function deepestChild(){
   return mostDeep;
 //  return document.getElementById('grand-node').nodes[nodes.length- 1];
 }
+
+function increaseRankBy(n) {
+  var sheep = document.querySelectorAll('ul.ranked-list li');
+  var bigSheep = parseInt(sheep);
+  return bigSheep*n;
+}
