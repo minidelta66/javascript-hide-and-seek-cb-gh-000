@@ -14,7 +14,7 @@ function deepestChild(){
 }
 
 function increaseRankBy(n) {
-  var sheep = document.querySelectorAll('ul.ranked-list li');
+  var sheep = document.querySelectorAll('ranked-list li');
   var bigSheep = parseInt(sheep);
   return bigSheep+n;
 }
